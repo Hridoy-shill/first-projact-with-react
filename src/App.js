@@ -1,10 +1,12 @@
 import './App.css';
 import Contries from './Components/Contries/Contries';
+import Footer from './Components/footer/footer';
 
 function App() {
   return (
     <div className="App">
       <Contries></Contries>
+      <Footer></Footer>
     </div>
   );
 }
